@@ -26,7 +26,7 @@
                 <a href="#">Post a Job</a>
             </div>
         </nav>
-        <main class="mt-10 max-w-[968px]">
+        <main class="mt-10 max-w-[968px] mx-auto">
             {{ $slot }}
         </main>
     </div>
