@@ -14,15 +14,15 @@
             <x-section-heading>Tags</x-section-heading>
 
             <div class="mt-6 space-x-1">
-                <x-tag>Tag</x-tag>
-                <x-tag>Tag</x-tag>
-                <x-tag>Tag</x-tag>
-                <x-tag>Tag</x-tag>
-                <x-tag>Tag</x-tag>
-                <x-tag>Tag</x-tag>
-                <x-tag>Tag</x-tag>
-                <x-tag>Tag</x-tag>
-                <x-tag>Tag</x-tag>
+                <x-tag size="xl">Back-end</x-tag>
+                <x-tag size="xl">Front-end</x-tag>
+                <x-tag size="xl">API</x-tag>
+                <x-tag size="xl">Software Engineer</x-tag>
+                <x-tag size="xl">DevOps</x-tag>
+                <x-tag size="xl">Database Analyst</x-tag>
+                <x-tag size="xl">AI</x-tag>
+                <x-tag size="xl">PHP</x-tag>
+                <x-tag size="xl">HTML</x-tag>
             </div>
         </section>
 

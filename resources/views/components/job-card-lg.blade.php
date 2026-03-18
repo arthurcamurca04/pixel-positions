@@ -1,10 +1,10 @@
-<div class="p-4 bg-white/5 rounded-xl flex gap-x-6">
+<div class="p-4 bg-white/5 rounded-xl flex gap-x-6 border border-transparent hover:border-blue-800 transition-colors duration-300 group">
     <div>
         <img src="http://placehold.co/90" alt="" class="rounded-xl">
     </div>
     <div class="flex-1 flex flex-col">
         <a href="#" class="self-start text-sm text-gray-400">Laracasts</a>
-        <h3 class="font-bold text-xl mt-1">Video Producer</h3>
+        <h3 class="group-hover:text-blue-500 transition-colors duration-300 font-bold text-xl mt-1">Video Producer</h3>
         <p class="text-sm text-gray-400 mt-auto">Full time - From $60,000</p>
     </div>
 
