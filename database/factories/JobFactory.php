@@ -21,7 +21,7 @@ class JobFactory extends Factory
         return [
             'employer_id' => Employer::factory(),
             'title' => $this->faker->jobTitle(),
-            'salary' => $this->faker->numberBetween($min = 1000, $max = 9000),
+            'salary' => $this->faker->numberBetween($min = 50000, $max = 90000),
             'location' => $this->faker->randomElement(['Remote', 'Hybrid', 'On Site']),
             'url' => $this->faker->url(),
             'schedule' => $this->faker->randomElement(['Full Time', 'Part Time']),

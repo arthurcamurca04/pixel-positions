@@ -20,7 +20,7 @@ class EmployerFactory extends Factory
     {
         return [
             'name' => $this->faker->company(),
-            'logo' => $this->faker->imageUrl(),
+            'logo' => 'http://placehold.co',
             'user_id' => User::factory()
         ];
     }

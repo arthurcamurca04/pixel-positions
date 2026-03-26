@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Job;
 use App\Http\Requests\StoreJobRequest;
 use App\Http\Requests\UpdateJobRequest;
+use App\Models\JobTag;
+use App\Models\Tag;
 
 class JobController extends Controller
 {
@@ -13,7 +15,10 @@ class JobController extends Controller
      */
     public function index()
     {
-        //
+        return view('jobs.index', [
+            'jobs' => Job::with('tags', 'employer')->get(),
+            'tags' => Tag::all()]
+        );
     }
 
     /**

@@ -17,8 +17,22 @@ class TagFactory extends Factory
      */
     public function definition(): array
     {
+        $tagsNames = [
+            'Backend',
+            'Frontend',
+            'API',
+            'Software Engineer',
+            'DevOps',
+            'AI',
+            'PHP',
+            'DB Analyst',
+            'HTML',
+            'Laravel',
+            'Javascript'
+        ];
+
         return [
-            'name' => $this->faker->word(),
+            'name' => $this->faker->unique()->randomElement($tagsNames),
         ];
     }
 }
